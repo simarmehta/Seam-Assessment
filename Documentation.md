@@ -1,4 +1,4 @@
-Below is an expanded version of the `DOCUMENTATION.md` that includes detailed instructions on how to use the API through the command line on Windows/Mac, as well as guidance on operating the frontend. This comprehensive document aims to provide all the necessary information for both backend and frontend usage of your blog application.
+Below is the `DOCUMENTATION.md` that includes detailed instructions on how to use the API through the command line on Windows/Mac, as well as guidance on operating the frontend. This comprehensive document aims to provide all the necessary information for both backend and frontend usage of the blog application.
 
 ---
 
@@ -87,7 +87,3 @@ The frontend provides a web interface to interact with the blog. After starting 
 - Use the comment form at the bottom of the post page to add a new comment.
 
 For detailed API usage, refer to the API Endpoint Guide section. 
-
----
-
-This document aims to provide a comprehensive guide to both the API and the frontend of your Flask blog application. Adjust any commands and URLs as necessary to match your development or production environment.
