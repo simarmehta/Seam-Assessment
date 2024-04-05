@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Posts</title>
+</head>
+<body>
+    <h1>Create Post</h1>
+    <form id="postForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <textarea id="content" placeholder="Content" required></textarea>
+        <button type="submit">Submit Post</button>
+    </form>
+
+    <h2>Posts</h2>
+    <div id="posts"></div>
+
+    <!-- Form to Update a Post -->
+    <h3>Update Post</h3>
+    <form id="updatePostForm">
+        <input type="number" id="updateId" placeholder="Post ID" required>
+        <input type="text" id="updateTitle" placeholder="New Title">
+        <input type="text" id="updateAuthor" placeholder="New Author">
+        <textarea id="updateContent" placeholder="New Content"></textarea>
+        <button type="submit">Update Post</button>
+    </form>
+
+    <!-- Form to Delete a Post -->
+    <h3>Delete Post</h3>
+    <form id="deletePostForm">
+        <input type="number" id="deleteId" placeholder="Post ID" required>
+        <button type="submit">Delete Post</button>
+    </form>
+
+    <!-- Form to Add a Comment -->
+    <h3>Add Comment</h3>
+    <form id="commentForm">
+        <input type="number" id="commentPostId" placeholder="Post ID" required>
+        <input type="text" id="commentAuthor" placeholder="Your Name" required>
+        <textarea id="commentContent" placeholder="Your Comment" required></textarea>
+        <button type="submit">Submit Comment</button>
+    </form>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
