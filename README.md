@@ -70,3 +70,16 @@ These instructions will get you a copy of the project up and running on your loc
 Refer to [DOCUMENTATION.md](DOCUMENTATION.md) for detailed API documentation, including endpoints for managing blog posts and comments.
 
 
+## FRONTEND
+
+
+![image](https://github.com/simarmehta/Seam-Assessment/assets/70880900/636f88b9-126d-4a50-8d17-6e8f578e412b)
+
+## Shell Script Running Server
+
+![image](https://github.com/simarmehta/Seam-Assessment/assets/70880900/03629761-8959-4307-a267-09fab8f0bcf6)
+
+
+
+
+
